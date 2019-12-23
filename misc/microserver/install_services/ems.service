@@ -1,0 +1,9 @@
+[Unit]
+Description=Thingworx Microserver EMS Start Script
+[Service]
+ExecStart=${EMS_INSTALL_DIR}/wsems -cfg ${EMS_INSTALL_DIR}/etc/config.json
+Restart=on-failure
+RestartSec=5s
+User=$EMS_RUN_USER
+[Install]
+WantedBy=multi-user.target

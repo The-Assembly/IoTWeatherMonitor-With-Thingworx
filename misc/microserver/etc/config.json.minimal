@@ -1,0 +1,14 @@
+{ 
+	"ws_servers":	[{
+			"host":	"localhost",
+			"port":	443
+		}],
+	"appKey":	"e34dbaf2-0984-4bfb-9a6c-4cbc57959763",
+	"http_server" : {
+		"ssl" : true,
+		"authenticate" : false,
+		"certificate": "/path/to/certificate/file",
+		"private_key": "/path/to/private/key",
+		"passphrase": "password"
+	}
+}

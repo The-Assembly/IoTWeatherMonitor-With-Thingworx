@@ -1,0 +1,23 @@
+{ 
+	"ws_servers":	[{
+			"host":	"10.4.75.102",
+			"port":	8080
+		}],
+	"appKey":	"d1fe37bb-5765-4929-b5b1-755351aa1aec",
+	"http_server" : {
+		"host" : "127.0.0.1",
+		"port" : 8080,
+		"ssl" : false,
+		"authenticate" : false
+	},
+	"logger" : 
+	{"level" : "DEBUG"},
+	"certificates": {
+	"validate": false,
+	"allow_self_signed": true
+	},
+	"ws_connection": {
+	"encryption": "none",
+	"verbose" : true
+	}
+}
