@@ -1,0 +1,2 @@
+# IoTWeatherMonitor-With-Thingworx
+Oct 12th @ in5 - Hands-on Internet Of Things workshop with Etisalat Digital &amp; PTC. At this session, we’ll take you step by step over the process of creating a modular IoT solution using the Etisalat Thingworx Platform to monitor weather conditions at various locations. We’ll show you how to sync data from edge devices and sensors onto the cloud in real time, model this data to fit business use cases and present it over the web using the platform’s easy-to-use UI building tools.
